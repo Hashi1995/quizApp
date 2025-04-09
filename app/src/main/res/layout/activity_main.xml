@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ADD8E6"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz App"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textColor="#ADD8E6"
+        android:background="#00008B" />
+
+
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:textSize="24dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/title"/>
+
+
+    <Button
+        android:id="@+id/btnStartQuiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Now Start Quiz"
+        android:layout_below="@id/enterName"
+        android:textSize="24dp"
+        android:backgroundTint="#1976D2"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFFFFF"/>
+
+
+</RelativeLayout>
